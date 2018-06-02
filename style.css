@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+  font-family: Cagliostro;
+}
+
+h6 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1e1e1e;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+  float: left;
+  padding-left: 60px;
+  z-index: 10000;
+}
+
+.intro {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: url('https://static.mopik.net/img/1920x1080/cookies_and_crackers_11683_mopik.jpg')no-repeat 50% 50%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.menupage {
+  width: 100%;
+  height: 100vh;
+  background: #fafafa;
+  padding: 0;
+  margin: 0;
+}
+
+.recipepage {
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images6.alphacoders.com/453/453624.jpg')no-repeat 50% 50%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  float: right;
+  position: relative;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+header {
+  max-height: 56px;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: #efefef;
+  display: inline-block;
+  padding-right: 60px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: Cagliostro;
+  position: relative;
+}
+
+nav ul li a {
+  color: #efefef;
+  text-decoration: none;
+  font-family: Cagliostro;
+}
+
+nav ul li a:hover {
+  color: #e8881a;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #e8881a;
+  position: absolute;
+  width: 0%;
+  top: 0;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 50%;
+}
+
+.welcome {
+  position: absolute;
+  width: 800px;
+  top: 30%;
+  left: 20%;
+  color: #efefef;
+  font-family: Oswald;
+  font-size: 24px;
+}
+
+.btn-start {
+  color: #efefef;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  width: 150px;
+  font-family: Cagliostro;
+  font-size: 24px;
+  border: 2px white solid;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px 5px;
+  top: 60%;
+  left: 20%;
+}
+
+.btn-start:hover {
+  background-color: #e8881a;
+}
+
+.btn-start:active {
+  top: 60.3%;
+}
+
+.title {
+  padding: 25px 0px 35px 0px;
+  margin: 0;
+  width: 100%;
+  color: #fafafa;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.black {
+  padding: 50px 0px 80px 0px;
+  margin: 0;
+  width: 100%;
+  color: #1e1e1e;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cookie1 {
+  margin-left: 150px;
+  height: 480px;
+  width: 35%;
+  float: left;
+  background-color: #fafafa;
+}
+
+.cookie2 {
+  margin-right: 150px;
+  height: 480px;
+  width: 35%;
+  float: right;
+  background-color: #fafafa;
+}
+
+.section {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section div {
+  width: 50%;
+  margin: 0;
+}
+
+.section h1 {
+  font-family: Oswald;
+  font-size: 48px;
+}
+
+.section p {
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+
+.btn-browse {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px 12px;
+  color: #fafafa;
+  border: solid 2px orange;
+  background-color: orange;
+  border-radius: 5px;
+  position: relative;
+}
+
+.btn-browse:hover {
+  background-color: #fafafa;
+  color: orange;
+}
+
+.btn-browse:active {
+  top: 2px;
+}
+
+.extrapage {
+  background-color: #e8881a;
+  width: 100%;
+  height: 70vh;
+  margin: 0;
+}
+
+.section80 {
+  width: 80%;
+  display: table;
+  padding: 15vh;
+  text-align: center;
+  display: flex;
+}
+
+.extrapage div {
+  margin: 0 3vw;
+}
+
+.extrapage img {
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #dbdbdb;
+  height: 50vh;
+  width: 100%;
+}
